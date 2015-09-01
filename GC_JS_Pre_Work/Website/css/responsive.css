@@ -1,0 +1,68 @@
+
+@media screen and (max-width: 700px) { 
+    
+/* Adjusts Font sizes */
+.site-header { 
+  margin: 10px auto 0px; 
+} 
+ 
+.site-title { 
+  font-size: 20px; 
+  width: 100%; 
+  text-align: center; 
+  padding: 0; 
+} 
+      
+nav { 
+  width: 100%; 
+  text-align: center; 
+  padding: 10px 0px 20px; 
+}
+
+section li {
+  display: list-item;
+  text-align: center;
+  padding: 5px;
+}
+
+/* Resizes Picture with regular resize */
+.picture img {
+ resize: both;
+ width: 55%;
+ height: auto;
+}
+  
+.About-picture img {
+ resize: both;
+ width: 55%;
+ height: auto;
+}
+  
+}
+
+/* Resizes down for iPhone (480px) */
+@media screen and (max-width: 400px) {
+  
+/* Adjusted Font Sizes */
+section li {
+  font-size: .9em;    
+}
+  
+section p {
+  font-size: .75em;   
+}
+
+/* Picture Adjustments */
+.picture {
+  background-image: url("img/EyeBrowRaiseNoBackground.png");   
+ }
+ 
+.About-picture {
+  display: none;
+}
+ 
+footer { 
+  font-size: .75em; 
+}
+  
+}

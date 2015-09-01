@@ -1,0 +1,46 @@
+
+body {
+	background-color: #FFFFCC;
+}
+
+h1 {
+	text-align: center;
+	text-shadow: 2px 2px #ff0000;
+	margin: -5px;
+}
+
+.container{
+	text-align: center;
+}
+
+.rapper{
+	color: #FF3300;
+	font-size: 1.5em;
+}
+
+.lyrics {
+	font-family: sans-serif;
+	font-size: 1em;
+}
+
+.box {
+	max-width: 200px;
+}
+
+.photo {
+	margin: -5px;
+	max-width: 100px;
+	max-height: 100px;
+	border-radius: 25px;
+}
+
+#puff {
+	height: 100px;
+	width: 98.0469px;
+}
+
+#mase {
+	height: 100px;
+	width: 98.0469px;
+}
+

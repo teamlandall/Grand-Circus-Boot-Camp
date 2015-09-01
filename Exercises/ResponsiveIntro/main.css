@@ -1,0 +1,34 @@
+body {
+	background-color: #BADA55;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  margin: 50%;
+}
+
+@media (max-width: 900px) {
+  body {
+    background-color: orange;
+  } 
+  div {
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  margin: 50%;
+  }
+}
+
+@media (max-width: 600px){
+  body{
+    background-color: green;
+  }  
+  div {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin: 50%;
+  }
+}

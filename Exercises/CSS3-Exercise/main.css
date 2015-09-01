@@ -1,0 +1,140 @@
+div{
+	height: 200px;
+	width: 200px;
+	background-color: blue;
+	margin: 10px;
+	float: left;
+	margin: 15px;
+}
+
+p{
+	text-align: center;
+	padding: 35% 0;
+	font-size: 1.5em;
+}
+
+#border-radius{
+	border-radius: 30px;
+	background-color: #18BEF5;
+}
+
+#box-shadow{
+	background-color: #80FF00;
+	box-shadow: 10px 10px 5px gray;
+}
+
+#text-shadow{
+	background-color: #FCF917;
+	color: white;
+	text-shadow: 0px 0px 5px black;
+}
+
+.first-three{
+	width: 900px;
+	margin: 0 100px 0 0;
+	display: inline-block;
+}
+
+#transforms{
+	transform: scale(1.5, 1.5);
+	margin: 0 100px;
+}
+
+.next-two{
+	
+	display: inline-block;
+	margin: 100px 50px 0 0;
+}
+
+/** DIV SPINS TO INFINITY **/
+
+#spin{
+	background-color: #DA17FC;
+	animation-name: spin;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+/**  DIV CHANGES COLOR WHEN YOU MOUSE OVER **/
+
+#hover{
+	color: white;
+}
+
+#hover:hover {
+	background-color: yellow;
+	color: blue;
+}
+
+/*** DIV BOUNCES INTO PLACE AS IF DROPPED ***/
+
+#move{
+	background-color: #FC6717;
+	color: white;
+	text-shadow: 0px 0px 5px black;
+
+	animation-name: drop;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+   	animation-iteration-count: 1;
+}
+
+/** KEY FRAME CHANGES % AND THE Ycoordinate RESPECTIVELY **/
+@keyframes drop {
+	0% {
+	transform:translateY(-100%);
+		}
+	5% {
+	  	transform:translateY(-100%);
+		}
+	15% {
+	    transform:translateY(0);
+	    padding-bottom: 5px;
+		}
+	30% {
+	    transform:translateY(-50%);
+		}
+	40% {
+	  	transform:translateY(0%);
+	    padding-bottom: 6px;
+		}
+	50% {
+	    transform:translateY(-30%);
+		}
+	70% {
+	    transform:translateY(0%);
+	    padding-bottom: 7px;
+		}
+	80% {
+	    transform:translateY(-15%);
+		}
+	90% {
+	    transform:translateY(0%);
+	    padding-bottom: 8px;
+		}
+	95% {
+	    transform:translateY(-7%);
+		}
+	97% {
+	    transform:translateY(0%);
+	    padding-bottom: 9px;
+		}
+	99% {
+	    transform:translateY(-3%);
+		}
+	100% {
+	    transform:translateY(0);
+	    padding-bottom: 9px;
+		}
+
+}
+
+
+
+
+

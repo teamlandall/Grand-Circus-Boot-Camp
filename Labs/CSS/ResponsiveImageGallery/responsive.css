@@ -1,0 +1,80 @@
+@media (min-width: 951px){
+  .gallery:nth-child(even){
+    animation-name: slideEven;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes slideEven{
+    0%, 100% {
+      transform: translateX(0px);
+    }
+   25% {
+      transform: translateX(-100px);
+    }
+    50% {
+      transform: translateX(75px);
+    }
+    75% {
+      transform: translateX(-50px);
+    }
+  }  
+  .gallery:nth-child(odd){
+      animation-name: slideOdd;
+      animation-duration: 1s;
+      animation-timing-function: linear;
+      animation-iteration-count: 1;
+    }
+
+    @keyframes slideOdd{
+   0%, 100% {
+      transform: translateX(0px);
+    }
+    25% {
+      transform: translateX(100px);
+    }
+    50% {
+      transform: translateX(-75px);
+    }
+    75% {
+      transform: translateX(50px);
+    }
+  }
+}
+
+
+@media (min-width: 481px) and (max-width: 950px){
+	.row{
+		width: 500px;
+	}
+
+	img{
+		border: 2px solid black;
+		padding: 2px;
+		border-radius: 30px;
+		box-shadow: 0px 0px 5px black;
+
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+  }
+    @keyframes spin {
+      from {transform:rotate(0deg);}
+      to {transform:rotate(360deg);}
+    }
+}
+
+
+@media (max-width: 480px){
+	.row{
+		width: 250px;
+	}
+  img{
+    border-radius: 50%;
+  }
+  div p {
+    display:none;
+  }
+}
+

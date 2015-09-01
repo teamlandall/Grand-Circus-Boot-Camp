@@ -1,0 +1,43 @@
+
+#first{
+  padding: 2px 2px;
+  border-style: dashed;
+  margin: 50px 0px 50px 40%;
+  background-color: #3399FF;
+}
+
+#second{
+  padding: 15px;
+  border-style: double;
+  border-radius: 100px;
+  margin: 0 auto;
+  background-color: #CCFF99;
+  max-width: 60%;
+}
+
+#third{
+  padding: 2px 2px;
+  border-style: solid;
+  margin: 50px 60% 50px 0;
+  background-color: #FF6600;
+}
+
+.arrow-thing{
+  border-top: 100px solid black;
+  border-left: 100px solid white;
+  border-bottom: 0 solid white; 
+  border-right: 100px solid white;
+  width: 0;
+
+  margin: 50px 0 0 40%;
+}
+
+.arrow-thing2{
+  border-top: 0 solid white;
+  border-left: 100px solid white;
+  border-bottom: 100px solid black; 
+  border-right: 100px solid white;
+  width: 0;
+
+  margin: 0 auto;
+}

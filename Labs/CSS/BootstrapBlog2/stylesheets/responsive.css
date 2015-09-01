@@ -1,0 +1,117 @@
+@media (max-width: 991px){
+  .col-md-9 {
+    height: 70px;
+    margin-top: -20px;
+  }
+
+  .col-md-9 h1{
+  font-size: 2.5em;
+  color: white;
+  padding: 15px 0 0 0;
+  margin-left: 50px;
+  }
+
+  .col-md-9 form{
+    display: inline;
+    position: absolute;
+      top: 2px;
+      left: 515px;
+  }
+
+  .dropdown {
+    display: inline;
+    position: absolute;
+      top: 20px;
+  }
+
+  .dropdown-toggle{
+    border: none;
+    background-color: transparent;
+  }
+
+  .glyphicon-menu-hamburger{
+    color: #2FADFF;
+  }
+
+  .col-md-3 {
+    display: none;
+  }
+
+  .non-mobile-links{
+    display: none;
+  }
+}
+
+@media (max-width: 772px){
+  .form-group {
+    width: 250px;
+  }
+
+  .col-md-9 form{
+      top: 2px;
+      left: 485px;
+  }
+
+  .dropdown {
+      top: 20px;
+  }
+
+  .col-md-9 h1{
+  padding: 15px 0 0 10px;
+  }
+}
+
+@media (max-width: 750px) {
+
+  .col-md-9 h1{
+  font-size: 2.5em;
+  color: white;
+  text-align: center;
+  margin-left: 0px;
+  }
+
+  .col-md-9 form{
+    display: none;
+  }
+
+  .form-group {
+    height: 35px;
+    width: 150px;
+  }
+
+  .dropdown {
+    display: inline;
+    position: absolute;
+      top: 15px;
+      left: 15px;
+  }
+
+}
+
+@media (max-width:500px){
+  .col-md-9 h1{
+  font-size: 2.25em;
+  color: white;
+  text-align: center;
+  margin-left: 0;
+  padding: 15px 0;
+  }
+
+  .col-md-8 img {
+    width: 75%;
+    height: 75%;
+
+    position: relative;
+      left: 60px;
+
+    margin-bottom: 8px;
+  }
+
+  .col-md-8 p{
+    clear: left;
+  }
+}
+
+
+
+
