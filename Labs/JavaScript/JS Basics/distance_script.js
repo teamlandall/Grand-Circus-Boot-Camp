@@ -15,7 +15,12 @@ function distanceConverter(units, startingDistance){
 		convertToKilometers(startingDistance);
 	} else {
 		// Does not call back to original function to try again 
+		// Don't think I'm nesting the 2nd if statement correctly
 		secondPrompt = prompt("We're only converting KMs and Miles. Want to try again?").toLowerCase();
+	} if (secondPrompt === 'y'){
+		distanceConverter(units, startingDistance);
+	} else{
+		alert("Ok. Have a nice day!");
 	}
 }
 
