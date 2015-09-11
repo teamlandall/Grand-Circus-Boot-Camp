@@ -1,0 +1,23 @@
+h1 {
+	text-align: center;
+}
+
+#list-container {
+	text-align: center;
+}
+
+#list-container li {
+	list-style: none;
+}
+
+h3 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+.new-form {
+	text-align: center;
+}

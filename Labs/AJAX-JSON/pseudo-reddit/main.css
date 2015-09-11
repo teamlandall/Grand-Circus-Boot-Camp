@@ -1,0 +1,23 @@
+body {
+	background-color: dodgerblue;
+}
+
+.container {
+	max-width: 400px;
+	left-margin: auto;
+	right-margin: auto;
+	border: 2px red solid;
+}
+
+#location h2{
+	text-align: center;
+}
+
+#location{
+	text-align: center;
+	background-color: red;
+}
+
+.row {
+	margin: 10px 10px;
+}
