@@ -1,0 +1,13 @@
+.container {
+	max-width: 700px;
+}
+
+h1 {
+	color: white;
+	text-shadow: 0 0 2px black;
+}
+
+.content {
+	margin-top: 10px;
+}
+

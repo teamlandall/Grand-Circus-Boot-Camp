@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>angular Practice</title>
+	<link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+<h1> Mad Libs Game </h1>
+  <div ng-app>
+    <input type="text" ng-model="noun1" placeholder="Enter a Noun">
+    <input type="text" ng-model="noun2" placeholder="Enter a Noun">
+    <input type="text" ng-model="noun3" placeholder="Enter a Noun">
+    <br>
+    <input type="text" ng-model="adj1" placeholder="Enter a Adjective">
+    <input type="text" ng-model="adj2" placeholder="Enter a Adjective">
+    <input type="text" ng-model="adj3" placeholder="Enter a Adjective">
+    <br>
+    <input type="number" ng-model="number1" placeholder="Enter a Number">
+    <input type="number" ng-model="number2" placeholder="Enter a Number">
+    <input type="number" ng-model="number3" placeholder="Enter a Number">
+    
+    
+    <p> There was once a {{ noun1 }} and it was {{ adj1 }}! </p>
+    <p> {{ noun1 + "\'s" }} best friend was a {{ noun2 }} and it was {{ adj2 }}! </p>
+    <p> {{ noun2 + "\'s" }} best friend was a {{ noun3 }} and it like to eat things that were {{ adj3}}. </p>
+    <p> Because of this {{ noun1 }} did not like {{ noun3 }} so stuff was pretty awkward for {{ noun2 }}.</p>
+    <p>
+    <p> You entered the numbers {{ number1 }} and {{ number2 }}. </p>
+    <p> The sum of those numbers is {{ number1 + number2 }}. </p>
+    <p> The difference of those numbers is {{ number1 - number2 }}.</p>
+    <p> The expression {{ number1 }} is less than {{ number2 }} is definitively {{ number1 < number2}}. </p>
+    <p> We asked you for a third number, in which you gave us {{ number3 }}, but we aren't going to do anything with that number. </p>
+    <p>
+    <p> If you concact all of the nouns you get {{ noun1 + noun2 + noun3 }} and that makes no sense. </p>
+    <p> Combining the adjectives is equally silly. Don't believe me? {{ adj1 + adj2 + adj3 }}, told you! </p>
+    <p> Every other noun combined with every other adjective is also confusing. Want to see?</p>
+    <p> {{ noun1 + adj1 }}, {{ noun2 + adj2 }}, {{ noun3 + adj3}}</p>
+
+  </div>
+
+    
+  
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+

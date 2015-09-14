@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>angular ng-repeat</title>
+	<link href="main.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+
+<body>
+
+  <div ng-app>
+    <div ng-init="wuTang=['RZA', 'GhostFace Killah', 'Ol\' Dirty Bastard', 'Method Man', 'Raekwon', 'GZA', 'Cappadonna', 'Masta Killa', 'Inspectah Deck', 'U-God']">
+      <h1>Wu-Tang Clan Original Members</h1>
+        
+        <div class="box">
+          <h2 class="names" ng-repeat="member in wuTang">{{ member }}</h2>
+        </div>
+    </div>
+  </div>
+    
+  
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
