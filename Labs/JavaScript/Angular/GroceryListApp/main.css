@@ -1,0 +1,26 @@
+.container{
+	max-width: 75%;
+}
+
+#right {
+	font-weight: bold;
+	text-align: right;
+}
+
+#search {
+	margin: 2px;
+}
+
+h1, h3 {
+	margin-left: 2px;
+	color: white;
+	text-shadow: 0 0 2px black;
+}
+
+#addItem {
+	margin-left: 2px;
+}
+
+.table {
+	background-color: rgba(211, 211, 211, .75);
+}

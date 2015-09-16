@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>angular Random Words</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+	<link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+
+<h1> Random Buttons </h1>
+
+  <div ng-app="RandomWords">
+    <div ng-controller="WordController">
+      <button ng-click="oneWord()" id="singleWord">A single Word</button>
+      <button ng-click="moreWords()" id="moreWords">More Words</button>
+      <button ng-click="decoration()"id="decorations">Words With Decorations</button>
+      <button ng-click="moreWordsDecorations()"id="decorations2">More Words with Decorations</button>
+      <button ng-click="phraseFromWords()"> Random Phrase from Words Array </button>
+
+
+      <div>
+      <div id="singleWord"> {{singleWord}} </div>
+
+      <div id="moreWords"> {{ multipleWords }} </div>
+      
+      <div id="decorations">{{ decoratedWord }}</div>
+      
+      <div id="decorations2">{{ decoratedPhrase }}</div>
+
+      <div> {{ eachWord }} </div>
+      </div>
+      
+       
+    </div>
+  </div>
+  
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> angular - Routes </title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+	<link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1> So many Animals </h1> 
+    <a class="btn btn-info" role="button" href="#/"> Dog </a>
+    <a class="btn btn-danger" role="button" href='#/cat'> Cat </a>
+    <a class="btn btn-warning" role="button" href='#/lizard'> Lizard </a>
+      <div ng-app="routes">
+    	   <div ng-view=""> </div>
+      </div>
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.min.js"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>

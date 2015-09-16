@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>angular ng-repeat</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+	<link href="main.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+
+<body ng-app="AllmanBros">
+
+  <div ng-controller="AllmanBrosCtrl">
+    <table class="table-hover table"> 
+      <tr>
+        <th>Name</th>
+        <th>Instrument</th>
+        <th>Active</th>
+      </tr> 
+      <tr ng-repeat="bro in Allmans">
+        <td> {{ bro.name }}</td>
+        <td> {{ bro.instrument }}</td>
+        <td> {{ bro.active }}</td>
+      </tr>
+    </table>
+  </div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

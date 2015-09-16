@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+@import url(https://fonts.googleapis.com/css?family=Lakki+Reddy);
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+
+p{
+	font-weight: bold;
+}
+
+#singleWord{
+	color: green;
+	margin-left: 2px;
+}
+#moreWords{
+	color: blue;
+	font-family: 'Orbitron', sans-serif;
+}
+#decorations{
+	text-decoration: underline;
+	color: purple;
+	font-family: 'Lakki Reddy', cursive;
+}
+#decorations2{
+	color: red;
+    font-family: 'Rock Salt', cursive;
+    }

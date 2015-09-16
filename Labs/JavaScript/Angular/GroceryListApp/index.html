@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>angular Grocery List</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+	<link href="main.css" rel="stylesheet">
+</head>
+
+<body >
+<div id="wrapper">
+<div class="container">
+<h1> Grocery List </h1>
+
+<div ng-app="GroceryList">
+  <input type="text" ng-model="searchList" placeholder="Search List" id="search" />
+  <div ng-controller="ListController">
+    
+    <table class="table-hover table"> 
+      <tr>
+        <th>Item</th>
+        <th>Price</th>
+      </tr> 
+      <tr ng-repeat="data in Groceries | filter:searchList">
+        <td> {{ data.item }} </td>
+        <td> {{ data.price | currency}} </td>
+      </tr>
+      <tr>
+        <td id="right"> Total </td>
+        <td> {{ total() | currency }} </td>
+      </tr>
+    </table>
+   
+      <h3> Add New Items </h3>
+      <input type="text" ng-model="newItem.item" placeholder="Item Name" id="addItem">
+      <input type="number" ng-model="newItem.price" placeholder="Item Price">
+      <input type="submit" ng-click="addItem(newItem)" value="Add">
+
+  </div>
+</div>
+</div>
+</div> <!-- tubular div -->
+
+  
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="jquery.tubular.1.0.js"></script>
+  <script src="video.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
