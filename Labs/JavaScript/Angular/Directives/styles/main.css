@@ -1,0 +1,28 @@
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#header-text{
+	font-size: 1.7em;
+}
+
+#header-row{
+	/*background-color: #667399;*/
+	width: 99%;
+	margin: 3px auto 5px auto;
+}
+
+#lyric-btn{
+	padding-left: 25px;
+}
+
+
+img {
+	width: 100px;
+	height: auto;
+}
+
+#caption{
+	font-size: .55em;
+}

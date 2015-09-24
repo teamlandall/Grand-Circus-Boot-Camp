@@ -1,0 +1,16 @@
+
+<h3> Follow the Prompts </h3>
+
+	<form class="form-horizontal">
+  <div class="form-group">
+    <label for="exampleInputName1">Rock Star Name</label>
+    <input ng-model="rockStar" type="text" class="form-control" id="rockStar" placeholder="Chet Reno">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputName2">Cover Band</label>
+    <input ng-model="coverBand" type="text" class="form-control" id="coverBand" placeholder="Leg Warmers">
+  </div>
+  <!-- fix the button below so it captures info AND navigates to display upon click -->
+  <a ng-click="submit(rockStar, coverBand)" role="button" class="btn btn-info" href="#/display">Get Rad</a>
+  
+</form>

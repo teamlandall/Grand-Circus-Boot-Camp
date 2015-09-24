@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> angular - Modules, Routes, Controller </title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1> Cover Band Naming Device</h1> 
+    
+      <div ng-app="bandRoutesApp">
+         <ng-view> </ng-view> 
+      </div>
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.min.js"></script>
+  
+  <script src="js/app.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/displayController.js"></script>
+</body>
+
+</html>
