@@ -1,0 +1,118 @@
+bgcolor = dodgerblue
+divcolor = yellow
+divcolor2 = orange
+hovercolor = white
+hovercolor2 = brown
+
+w = 90px
+h = 90px
+
+ib = inline-block
+
+border-radius()
+  -webkit-border-radius: arguments
+  -moz-border-radius: arguments
+  border-radius: arguments
+
+body 
+	background-color darken(bgcolor, 20)
+
+#container
+	margin 0 auto
+
+#one 
+	width (w + 50)
+	height (h + 50)
+	background-color lighten(bgcolor, 20)
+	border 1px solid
+	border-radius 5px
+	display ib
+
+#two 
+	width (w + 50)
+	height (h + 50)
+	background-color darken(divcolor, 20)
+	border 1px dotted
+	border-radius 10%
+	display ib
+
+#three 
+	width (w + 50)
+	height (h + 50)
+	background-color divcolor2
+	border 1px solid
+	border-radius 50px
+	display ib
+
+#four 
+	width (w + 50)
+	height (h + 50)
+	background-color lighten(divcolor2, 20)
+	border 1px dashed
+	border-radius 40%
+	display ib
+
+#five 
+	width (w + 50)
+	height (h + 50)
+	background-color lighten(bgcolor, 20)
+	border 3px solid divcolor
+	border-radius 15px
+	display ib
+
+#six 
+	width (w + 50)
+	height (h + 50)
+	background-color lighten(divcolor2, 20)
+	border 10px solid
+	border-radius 10%
+	display ib
+
+#seven
+	width (w + 50)
+	height (h + 50)
+	background-color divcolor2
+	border 1px solid
+	border-radius 50px
+	display ib
+
+#eight 
+	width (w + 50)
+	height (h + 50)
+	background-color lighten(bgcolor, 20)
+	border 3px solid divcolor
+	border-radius 15px
+	display ib
+
+#one:hover
+	background-color hovercolor
+	text-shadow 0 0 4px divcolor
+
+#two:hover
+	background-color hovercolor2
+
+#three:hover
+	background-color hovercolor
+
+#four:hover
+	background-color hovercolor2
+
+#five:hover
+	background-color hovercolor
+
+#six:hover
+	background-color hovercolor2
+
+#seven:hover
+	background-color divcolor2
+
+#eight:hover
+	background-color bgcolor
+
+	
+
+
+
+
+
+

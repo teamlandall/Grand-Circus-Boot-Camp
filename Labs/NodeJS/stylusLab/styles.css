@@ -1,0 +1,111 @@
+body {
+  background-color: #005db7;
+}
+#container {
+  margin: 0 auto;
+}
+#one {
+  width: 140px;
+  height: 140px;
+  background-color: #84c2ff;
+  border: 1px solid;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+#two {
+  width: 140px;
+  height: 140px;
+  background-color: #990;
+  border: 1px dotted;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  border-radius: 10%;
+  display: inline-block;
+}
+#three {
+  width: 140px;
+  height: 140px;
+  background-color: #ffa500;
+  border: 1px solid;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  display: inline-block;
+}
+#four {
+  width: 140px;
+  height: 140px;
+  background-color: #ffc966;
+  border: 1px dashed;
+  -webkit-border-radius: 40%;
+  -moz-border-radius: 40%;
+  border-radius: 40%;
+  display: inline-block;
+}
+#five {
+  width: 140px;
+  height: 140px;
+  background-color: #84c2ff;
+  border: 3px solid #ff0;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  display: inline-block;
+}
+#six {
+  width: 140px;
+  height: 140px;
+  background-color: #ffc966;
+  border: 10px solid;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  border-radius: 10%;
+  display: inline-block;
+}
+#seven {
+  width: 140px;
+  height: 140px;
+  background-color: #ffa500;
+  border: 1px solid;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  display: inline-block;
+}
+#eight {
+  width: 140px;
+  height: 140px;
+  background-color: #84c2ff;
+  border: 3px solid #ff0;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  display: inline-block;
+}
+#one:hover {
+  background-color: #fff;
+  text-shadow: 0 0 4px #ff0;
+}
+#two:hover {
+  background-color: #a52a2a;
+}
+#three:hover {
+  background-color: #fff;
+}
+#four:hover {
+  background-color: #a52a2a;
+}
+#five:hover {
+  background-color: #fff;
+}
+#six:hover {
+  background-color: #a52a2a;
+}
+#seven:hover {
+  background-color: #ffa500;
+}
+#eight:hover {
+  background-color: #1e90ff;
+}
